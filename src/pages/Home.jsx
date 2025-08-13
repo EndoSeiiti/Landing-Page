@@ -29,26 +29,26 @@ function Home (){
        <div>
     
       <div
-        className="h-64 w-64 md:hidden rounded-xl relative overflow-hidden mx-auto "
+        className="h-80 w-80 md:hidden rounded-xl relative overflow-hidden mx-auto "
         style={{ backgroundImage: `url(${MainImg})`, backgroundSize: 'cover', backgroundPosition: 'center' }}
       >
-        <div className="absolute bottom-0 left-0 right-0 p-4 bg-black bg-opacity-50 text-white">
-          <h2 className="text-xl font-bold">Título Incrível</h2>
+        <div className="absolute bottom-0 left-0 p-4  bg-opacity-50 text-black">
+          <h2 className="ml-4 text-xl font-bold text-left font-unbounded">Where<br /> style<br /> meets the<br /> streets</h2>
           
-          <button className="mt-4 px-4 py-2 bg-white text-black font-semibold rounded-md">
-            Clique Aqui
+          <button className="mt-2 ml-4 mb-6 px-4 py-2 bg-orange-600 text-black font-unbounded rounded-md">            
+            SHOP NOW
           </button>
         </div>
       </div>
       <div
-        className="hidden md:block rounded-xl relative overflow-hidden  h-[650px] w-[1800px] mx-auto "
+        className="hidden md:block rounded-3xl relative overflow-hidden w-[95%] mx-auto aspect-[16/5]
+         "
         style={{ backgroundImage: `url(${MainImg})`, backgroundSize: 'cover', backgroundPosition: 'center top 15%' }}
       >
-        <div className="absolute bottom-0 left-0 right-0 p-6 bg-black bg-opacity-50 text-white">
-          <h2 className="text-3xl font-bold">Título para Desktop</h2>
-          <p className="text-base mt-4">Uma descrição mais longa para telas maiores.</p>
-          <button className="mt-6 px-6 py-3 bg-white text-black font-semibold rounded-md">
-            Saiba Mais
+        <div className="absolute bottom-0 left-0  p-6  text-black">
+          <h1 className="text-5xl ml-[250px] text-left font-unbounded font-bold ">Where style<br /> meets the<br /> streets</h1>
+          <button className="mt-6 mb-16 ml-[50px] px-6 py-2 font-bold bg-orange-600 text-black font-unbounded rounded-2xl">
+            SHOP NOW
           </button>
         </div>
       </div>
