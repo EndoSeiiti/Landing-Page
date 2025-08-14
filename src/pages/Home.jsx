@@ -5,6 +5,7 @@ import Logo from '../assets/Logo.png';
 import Cart from '../assets/Cart.png';
 import Search from '../assets/Search.png';
 import MainImg from '../assets/MainImg.png';
+import Flower from '../assets/Flower.png';
 
 
 function Home (){
@@ -53,6 +54,23 @@ function Home (){
         </div>
       </div>
     </div>
+     
+
+        <div className='flex justify-center items-center px-10 mt-12 gap-8 md:gap-32'>
+            
+            <div className='flex-shrink-0'>
+               <img src = {Flower} alt ="flower" className="h-10 w-10 md:h-16 md:w-16 "/>
+            </div>
+            
+            <div className='text-gray-700 text-xs md:w-1/2 md:text-3xl'>
+              Jorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis.
+            </div>
+          
+            <div className='flex-shrink-0'>
+              <img src = {Flower} alt ="flower" className="h-10 w-10 md:h-16 md:w-16"/>
+            </div>
+        </div>
+      
     </div>
     
   )
