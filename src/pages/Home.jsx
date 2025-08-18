@@ -13,6 +13,10 @@ import IMG3 from '../assets/IMG3.png';
 import IMG4 from '../assets/IMG4.png';
 import IMG5 from '../assets/IMG5.png';
 import IMG6 from '../assets/IMG6.png';
+import ic_instagram from '../assets/ic_instagram.png';
+import ic_facebook from '../assets/ic_facebook.png';
+import ic_twitter from '../assets/ic_twitter.png';
+import ic_tiktok from '../assets/ic_tiktok.png';
 
 import productImage from '../assets/productImage.png'
 
@@ -246,7 +250,27 @@ function Home (){
         </div>
       </div>
     </div>
+      <footer className="bg-[#2b3a55] text-[#f0c9b7] py-8 rounded-t-3xl">
+      <div className="container mx-auto flex flex-col items-center gap-6 md:flex-row md:justify-between px-4">
+        {/* Ícones de Redes Sociais */}
+        <div className="grid grid-cols-2 gap-4 text-xl md:flex">
+          <img src={ic_instagram} alt="instagram"/>
+          <img src={ic_tiktok} alt="tiktok"/>
+          <img src={ic_twitter} alt="twitter" className='w-11 h-11 mt-1'/>
+          <img src={ic_facebook} alt="facebook"/>
+        </div>
+        
+        {/* Links de Navegação */}
+        <ul className="flex flex-col items-center gap-2 md:flex-row md:space-x-8 md:gap-0">
+          <li><a href="/about-us" className="hover:underline">About us</a></li>
+          <li><a href="/services" className="hover:underline">Services</a></li>
+          <li><a href="/help" className="hover:underline">Help</a></li>
+          <li><a href="/contact" className="hover:underline">Contact</a></li>
+        </ul>
+      </div>
+    </footer>
     </div>
+    
     
   )
 
