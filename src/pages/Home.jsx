@@ -75,7 +75,7 @@ function Home (){
                <img src = {Flower} alt ="flower" className="h-10 w-10 md:h-16 md:w-16 "/>
             </div>
             
-            <div className='text-gray-700 text-xs md:w-1/2 md:text-3xl'>
+            <div className='text-gray-700  font-unbounded text-xs md:w-1/2 md:text-3xl'>
               Jorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis.
             </div>
           
@@ -128,7 +128,7 @@ function Home (){
          
         />
         
-        <div className="absolute top-4 left-4 bg-orange-600 text-white font-bold text-sm px-4 py-2 rounded-full transform rotate-[-8deg] shadow-lg">
+        <div className="absolute top-4 font-unbounded left-4 bg-orange-600 text-white font-bold text-sm px-4 py-2 rounded-full transform rotate-[-8deg] shadow-lg">
           30% OFF
         </div>
       </div>
@@ -142,14 +142,14 @@ function Home (){
           
             <h2 className="text-3xl sm:text-4xl md:text-5xl font-extrabold tracking-tight text-gray-900">SALE!</h2>
           </div>
-          <p className="font-semibold text-xl sm:text-2xl md:text-3xl text-gray-800 leading-tight">
+          <p className="font-semibold  font-unbounded text-xl sm:text-2xl md:text-3xl text-gray-800 leading-tight">
             Nunc vulputate libero et velit <br />interdum, ac aliquet
           </p>
         </div>
 
         
         <div className="mb-6">
-          <p className="text-sm md:text-base text-gray-600 leading-relaxed">
+          <p className="text-sm md:text-base text-gray-600 font-unbounded leading-relaxed">
             Gorem ipsum dolor sit amet, consectetur <br />adipiscing elit, consectetur
             interdum, ac aliquet odio mattis.
           </p>
@@ -163,10 +163,10 @@ function Home (){
 
         
         <div className="flex gap-2 sm:gap-4">
-          <button className="flex-1 bg-orange-600 text-white font-bold py-2 px-4 md:py-4 md:px-8 rounded-xl shadow-md hover:bg-orange-700 transition-colors text-sm md:text-base">
+          <button className="flex-1 bg-orange-600 font-unbounded text-white font-bold py-2 px-4 md:py-4 md:px-8 rounded-xl shadow-md hover:bg-orange-700 transition-colors text-sm md:text-base">
             BUY NOW
           </button>
-          <button className="flex-1 bg-[#212B47] text-white font-bold py-2 px-4 md:py-4 md:px-8 rounded-xl shadow-md hover:bg-[#344160] transition-colors text-sm md:text-base">
+          <button className="flex-1 bg-[#212B47] font-unbounded text-white font-bold py-2 px-4 md:py-4 md:px-8 rounded-xl shadow-md hover:bg-[#344160] transition-colors text-sm md:text-base">
             ADD TO CART
           </button>
         </div>
@@ -175,7 +175,7 @@ function Home (){
 
     <div className="flex flex-col items-center justify-center bg-[#212B47] py-16 px-4 sm:px-6 md:px-8 text-white">
     
-      <h2 className="text-2xl sm:text-3xl md:text-4xl font-extrabold mb-8 text-center">
+      <h2 className="text-2xl font-unbounded sm:text-3xl md:text-4xl font-extrabold mb-8 text-center">
         Get it before anyone else!
       </h2>
 
@@ -189,7 +189,7 @@ function Home (){
         />
        
         <button
-          className="bg-orange-600 text-white font-bold text-base sm:text-lg px-8 py-4 rounded-br-xl sm:rounded-tr-xl sm:rounded-bl-none hover:bg-orange-700 transition-colors duration-300"
+          className="bg-orange-600 font-unbounded text-white font-bold text-base sm:text-lg px-8 py-4 rounded-br-xl sm:rounded-tr-xl sm:rounded-bl-none hover:bg-orange-700 transition-colors duration-300"
         >
           Subscribe
         </button>
@@ -199,7 +199,7 @@ function Home (){
      
       <div className="flex items-center mb-10 w-full max-w-xl md:max-w-5xl">
         <div className="flex-grow border-t-2 border-gray-300 mr-4"></div>
-        <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-extrabold tracking-tight text-gray-900 text-center">
+        <h2 className="text-3xl sm:text-4xl font-unbounded md:text-5xl lg:text-6xl font-extrabold tracking-tight text-gray-900 text-center">
           Categories
         </h2>
         <div className="flex-grow border-t-2 border-gray-300 ml-4"></div>
@@ -215,7 +215,7 @@ function Home (){
             className="w-28 h-36 sm:w-40 sm:h-52 md:w-80 md:h-[24rem] object-cover rounded-2xl shadow-md mb-2 sm:mb-4"
           />
          
-          <span className="font-bold text-sm sm:text-base md:text-2xl lg:text-3xl text-gray-900">SHOES</span>
+          <span className="font-bold  font-unbounded text-sm sm:text-base md:text-2xl lg:text-3xl text-gray-900">SHOES</span>
         </div>
 
    
@@ -226,7 +226,7 @@ function Home (){
             className="w-28 h-36 sm:w-40 sm:h-52 md:w-80 md:h-[24rem]  object-cover rounded-2xl shadow-md mb-2 sm:mb-4"
           />
          
-          <span className="font-bold text-sm sm:text-base md:text-2xl lg:text-3xl text-gray-900">SHIRTS</span>
+          <span className="font-bold text-sm font-unbounded sm:text-base md:text-2xl lg:text-3xl text-gray-900">SHIRTS</span>
         </div>
 
         
@@ -237,7 +237,7 @@ function Home (){
             className="w-28 h-36 sm:w-40 sm:h-52 md:w-80 md:h-[24rem]  object-cover rounded-2xl shadow-md mb-2 sm:mb-4"
           />
     
-          <span className="font-bold text-sm sm:text-base md:text-2xl lg:text-3xl text-gray-900">PANTS</span>
+          <span className="font-bold text-sm sm:text-base font-unbounded md:text-2xl lg:text-3xl text-gray-900">PANTS</span>
         </div>
       </div>
     </div>
@@ -253,10 +253,10 @@ function Home (){
         
       
         <ul className="flex flex-col items-center gap-2 md:flex-row md:space-x-8 md:gap-0">
-          <li><a href="/about-us" className="hover:underline">About us</a></li>
-          <li><a href="/services" className="hover:underline">Services</a></li>
-          <li><a href="/help" className="hover:underline">Help</a></li>
-          <li><a href="/contact" className="hover:underline">Contact</a></li>
+          <li><a href="/about-us" className="hover:underline font-unbounded">About us</a></li>
+          <li><a href="/services" className="hover:underline font-unbounded">Services</a></li>
+          <li><a href="/help" className="hover:underline font-unbounded">Help</a></li>
+          <li><a href="/contact" className="hover:underline font-unbounded">Contact</a></li>
         </ul>
       </div>
     </footer>
