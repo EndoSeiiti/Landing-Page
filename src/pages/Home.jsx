@@ -119,9 +119,7 @@ function Home (){
         </div>
 
        <div className="flex flex-col md:flex-row items-start md:items-stretch bg-white shadow-xl rounded-2xl overflow-hidden max-w-sm sm:max-w-xl md:max-w-6xl mx-auto my-10 border border-gray-200">
-      {/* Seção da Imagem */}
-      {/* Largura w-full para mobile, e md:w-1/2 para PC */}
-      {/* Min-height ajustada para mobile e PC */}
+      
       <div className="relative w-full md:w-1/2 min-h-[250px] md:min-h-[400px]">
         <img
           src={productImage}
@@ -129,21 +127,19 @@ function Home (){
           className="w-full h-full object-cover rounded-tl-2xl rounded-bl-2xl md:rounded-bl-none md:rounded-tr-2xl" // Ajuste nos rounded corners para responsividade
          
         />
-        {/* Badge "30% OFF" - Mantido como está */}
+        
         <div className="absolute top-4 left-4 bg-orange-600 text-white font-bold text-sm px-4 py-2 rounded-full transform rotate-[-8deg] shadow-lg">
           30% OFF
         </div>
       </div>
 
-      {/* Seção de Conteúdo (Direita) */}
-      {/* Largura w-full para mobile, e md:w-1/2 para PC */}
-      {/* Padding interno responsivo: menor para mobile, maior para desktop */}
+      
       <div className="flex flex-col justify-between p-4 md:p-8 w-full md:w-1/2">
-        {/* Título "SALE!" */}
+       
         <div className="mb-4">
           <div className="flex items-center mb-2">
             <div className="flex-grow border-t-2 border-black mr-4"></div>
-            {/* Tamanhos de fonte responsivos */}
+          
             <h2 className="text-3xl sm:text-4xl md:text-5xl font-extrabold tracking-tight text-gray-900">SALE!</h2>
           </div>
           <p className="font-semibold text-xl sm:text-2xl md:text-3xl text-gray-800 leading-tight">
@@ -151,7 +147,7 @@ function Home (){
           </p>
         </div>
 
-        {/* Descrição */}
+        
         <div className="mb-6">
           <p className="text-sm md:text-base text-gray-600 leading-relaxed">
             Gorem ipsum dolor sit amet, consectetur <br />adipiscing elit, consectetur
@@ -159,13 +155,13 @@ function Home (){
           </p>
         </div>
 
-        {/* Preço */}
+      
         <div className="flex items-baseline mb-8">
           <p className=" sm:text-4xl md:text-[80px] font-extrabold text-gray-900 mr-4">$99,90</p>
           <p className="text-base md:text-[40px] text-gray-500 line-through">$99,90</p>
         </div>
 
-        {/* Botões de Ação */}
+        
         <div className="flex gap-2 sm:gap-4">
           <button className="flex-1 bg-orange-600 text-white font-bold py-2 px-4 md:py-4 md:px-8 rounded-xl shadow-md hover:bg-orange-700 transition-colors text-sm md:text-base">
             BUY NOW
@@ -178,20 +174,20 @@ function Home (){
     </div>
 
     <div className="flex flex-col items-center justify-center bg-[#212B47] py-16 px-4 sm:px-6 md:px-8 text-white">
-      {/* Título da barra de newsletter */}
+    
       <h2 className="text-2xl sm:text-3xl md:text-4xl font-extrabold mb-8 text-center">
         Get it before anyone else!
       </h2>
 
-      {/* Container do formulário de inscrição */}
+     
       <div className="flex flex-col sm:flex-row w-full max-w-lg rounded-xl overflow-hidden shadow-lg">
-        {/* Campo de input de e-mail */}
+        
         <input
           type="email"
           placeholder="Your e-mail address"
           className="flex-1 p-4 text-gray-800 text-base sm:text-lg focus:outline-none focus:ring-2 focus:ring-orange-600 rounded-tl-xl sm:rounded-bl-xl sm:rounded-tr-none rounded-tr-xl"
         />
-        {/* Botão de inscrição */}
+       
         <button
           className="bg-orange-600 text-white font-bold text-base sm:text-lg px-8 py-4 rounded-br-xl sm:rounded-tr-xl sm:rounded-bl-none hover:bg-orange-700 transition-colors duration-300"
         >
@@ -200,7 +196,7 @@ function Home (){
       </div>
     </div>
     <div className="flex flex-col items-center py-16 px-4 bg-white">
-      {/* Título da seção "Categories" */}
+     
       <div className="flex items-center mb-10 w-full max-w-xl md:max-w-5xl">
         <div className="flex-grow border-t-2 border-gray-300 mr-4"></div>
         <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-extrabold tracking-tight text-gray-900 text-center">
@@ -209,50 +205,45 @@ function Home (){
         <div className="flex-grow border-t-2 border-gray-300 ml-4"></div>
       </div>
 
-      {/* Container das imagens das categorias */}
-      {/* Forçado a flex-row para exibir lado a lado no mobile também */}
-      {/* Gap ajustado para ser menor no mobile, e maior em telas maiores */}
+     
       <div className="flex flex-row flex-wrap justify-center w-full gap-2 sm:gap-4 md:gap-12 lg:gap-20">
-        {/* Categoria 1: Shoes */}
-        {/* Tamanho da imagem ajustado (sem aspect-square) para ser mais alta */}
+      
         <div className="flex flex-col items-center text-center flex-shrink-0">
           <img
             src={IMG4}
             alt="Shoes"
             className="w-28 h-36 sm:w-40 sm:h-52 md:w-80 md:h-[24rem] object-cover rounded-2xl shadow-md mb-2 sm:mb-4"
           />
-          {/* Tamanho da fonte da legenda ajustado */}
+         
           <span className="font-bold text-sm sm:text-base md:text-2xl lg:text-3xl text-gray-900">SHOES</span>
         </div>
 
-        {/* Categoria 2: Shirts */}
-        {/* Tamanho da imagem ajustado (sem aspect-square) para ser mais alta */}
+   
         <div className="flex flex-col items-center text-center flex-shrink-0">
           <img
             src={IMG5}
             alt="Shirts"
             className="w-28 h-36 sm:w-40 sm:h-52 md:w-80 md:h-[24rem]  object-cover rounded-2xl shadow-md mb-2 sm:mb-4"
           />
-          {/* Tamanho da fonte da legenda ajustado */}
+         
           <span className="font-bold text-sm sm:text-base md:text-2xl lg:text-3xl text-gray-900">SHIRTS</span>
         </div>
 
-        {/* Categoria 3: Pants */}
-        {/* Tamanho da imagem ajustado (sem aspect-square) para ser mais alta */}
+        
         <div className="flex flex-col items-center text-center flex-shrink-0">
           <img
             src={IMG6}
             alt="Pants"
             className="w-28 h-36 sm:w-40 sm:h-52 md:w-80 md:h-[24rem]  object-cover rounded-2xl shadow-md mb-2 sm:mb-4"
           />
-          {/* Tamanho da fonte da legenda ajustado */}
+    
           <span className="font-bold text-sm sm:text-base md:text-2xl lg:text-3xl text-gray-900">PANTS</span>
         </div>
       </div>
     </div>
       <footer className="bg-[#2b3a55] text-[#f0c9b7] py-8 rounded-t-3xl">
       <div className="container mx-auto flex flex-col items-center gap-6 md:flex-row md:justify-between px-4">
-        {/* Ícones de Redes Sociais */}
+      
         <div className="grid grid-cols-2 gap-4 text-xl md:flex">
           <img src={ic_instagram} alt="instagram"/>
           <img src={ic_tiktok} alt="tiktok"/>
@@ -260,7 +251,7 @@ function Home (){
           <img src={ic_facebook} alt="facebook"/>
         </div>
         
-        {/* Links de Navegação */}
+      
         <ul className="flex flex-col items-center gap-2 md:flex-row md:space-x-8 md:gap-0">
           <li><a href="/about-us" className="hover:underline">About us</a></li>
           <li><a href="/services" className="hover:underline">Services</a></li>
